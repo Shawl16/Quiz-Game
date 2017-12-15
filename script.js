@@ -61,7 +61,6 @@ QuestionAndAnswers.prototype.correct = function(ans){
 (function(){
 
 	var random,random1, randomObject, lastRandom;
-	var arr_Random = [];
 	var str, answer;
 	
  	for(var i = 0; i >= 0; i++){//Always run the game
