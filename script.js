@@ -60,7 +60,7 @@ QuestionAndAnswers.prototype.correct = function(ans){
 //Randomly selecting an object and then display question and possible answers.
 (function(){
 
-	var random,random1, randomObject, lastRandom;
+	var random, randomObject, lastRandom;
 	var str, answer;
 	
  	for(var i = 0; i >= 0; i++){//Always run the game
