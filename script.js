@@ -33,7 +33,7 @@ QuestionAndAnswers.prototype.correct = function(ans){
 
 	
 	//this will refer to the instance that called the method, it does!
-	if(ans == this.correctAnswer){//Type coercion is happening
+	if(ans == this.correctAnswer){
 		console.log('Correct answer!');
 		score += 1;
 		
